@@ -1,2 +1,2 @@
-# Excersice-3
-Github made in gamedev class, for gdevelop game where we experiemented with animations and more advanced sprites and behaviours
+# Excercises
+This repository is where I will be storing all of the excercise assignments for my gamedev class. 
