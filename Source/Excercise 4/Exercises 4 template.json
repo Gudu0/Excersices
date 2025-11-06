@@ -1,0 +1,2499 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 244,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "36e51876-689f-46fb-9906-ab0b43ded587",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "version": "1.0.0",
+    "name": "Project",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "spr_player_walk_right/dd3dc6b4-7877-4865-87ca-88e2be05ec8c.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\dd3dc6b4-7877-4865-87ca-88e2be05ec8c.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/0346cb08-84d3-4aac-8aab-2875b28b4cb6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\0346cb08-84d3-4aac-8aab-2875b28b4cb6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/5d3e1ee5-c0d7-413c-b256-1db5a5232c24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\5d3e1ee5-c0d7-413c-b256-1db5a5232c24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/13632589-1d50-4183-a5aa-54ac9bc7f489.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\13632589-1d50-4183-a5aa-54ac9bc7f489.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/199b4e8a-4ef8-4d80-93e8-0c4cd88357ba.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\199b4e8a-4ef8-4d80-93e8-0c4cd88357ba.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/092b74bd-4930-4d21-aca4-e86a67a8f6e1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\092b74bd-4930-4d21-aca4-e86a67a8f6e1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/333cc5c0-cace-4dc1-bdc9-672498ecc81b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\333cc5c0-cace-4dc1-bdc9-672498ecc81b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/64661a62-6fe4-4971-8906-faec1949995b.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\64661a62-6fe4-4971-8906-faec1949995b.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/1f3ebb34-19c1-4b5e-a0aa-da46d03cae21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\1f3ebb34-19c1-4b5e-a0aa-da46d03cae21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "obj_platform-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "obj_platform-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_walk_right/walk-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_walk_right\\walk-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-2-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-2-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-7.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-8.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-3-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-3-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-4-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-4-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-5-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-5-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-6-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-6-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-7-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-7-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-8-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-8-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-9-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-9-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-10-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-10-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-11-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-11-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-12-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-12-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-13-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-13-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-14-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-14-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-15-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-15-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-16-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-16-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-4-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-5-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-6-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-7-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-8-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-9-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-9-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-10-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-11-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-11-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-12-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-12-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-13-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-13-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-14-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-14-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-15-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-15-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-16-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-16-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject2-17-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject2-17-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-1-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-2-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-2-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-4-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-4-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-5-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-5-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_coin/NewObject2-6-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-6-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_coin/NewObject2-7-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-7-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-8-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-8-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-9-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-9-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_coin/NewObject2-10-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-10-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-11-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-11-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-12-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-12-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-13-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-13-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-14-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-14-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-15-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-15-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_coin/NewObject2-16-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-16-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_coin/NewObject2-17-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_coin\\NewObject2-17-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "jump.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "jump-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jump-1.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "SCN_95EXERCISES",
+      "name": "SCN_EXERCISES",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.7496551594353684,
+        "windowMask": false,
+        "selectedLayer": "Text"
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "coins_collected",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_floor",
+          "persistentUuid": "3135d7be-620a-4a95-88ea-68bf7d10d9b2",
+          "width": 800,
+          "x": 0,
+          "y": 576,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "09871863-59cf-4bf2-8e19-8b2b5f666330",
+          "width": 32,
+          "x": 800,
+          "y": 0,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 608,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "d6dc96d5-8160-442a-a5f2-b2b84acaf587",
+          "width": 32,
+          "x": -32,
+          "y": 0,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_player",
+          "persistentUuid": "c4882b4d-876a-4c0f-97f2-6ac271c74707",
+          "width": 0,
+          "x": 320,
+          "y": 480,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_floor",
+          "persistentUuid": "8e4e9ecd-1495-4c39-b97a-f46927691902",
+          "width": 160,
+          "x": 608,
+          "y": 512,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_floor",
+          "persistentUuid": "df321fc0-aef1-4dd2-85a5-a0699d479fbd",
+          "width": 128,
+          "x": 416,
+          "y": 448,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_floor",
+          "persistentUuid": "d456a999-4fbd-464c-88b1-2bd2018eca69",
+          "width": 96,
+          "x": 320,
+          "y": 384,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 19,
+          "layer": "",
+          "name": "obj_moving",
+          "persistentUuid": "9ede8c19-4aa8-4ced-a75e-ab5644bd8df5",
+          "width": 64,
+          "x": 256,
+          "y": 384,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_floor",
+          "persistentUuid": "ca2fb32d-9790-4dd8-9e8f-a0fe20fbe4fc",
+          "width": 160,
+          "x": 320,
+          "y": 64,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "08c4dd81-f75d-4e17-bdcb-4dc76fcd0dee",
+          "width": 0,
+          "x": 584,
+          "y": 448,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "e54dfb03-e62d-476d-bdb1-3ddfecd5d719",
+          "width": 0,
+          "x": 480,
+          "y": 424,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "5bdce29e-5fe5-4395-b883-492a15fdf189",
+          "width": 0,
+          "x": 328,
+          "y": 360,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_up",
+          "persistentUuid": "2e9572ca-9d9a-46ec-a120-5542f8e04780",
+          "width": 0,
+          "x": 288,
+          "y": 416,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_down",
+          "persistentUuid": "f73b91bd-bf00-4a89-af7c-10149cc73d35",
+          "width": 0,
+          "x": 288,
+          "y": 32,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "3acc327b-1770-4180-b0ea-f6f37094f0c3",
+          "width": 0,
+          "x": 648,
+          "y": 488,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "09eb6e91-cb02-43b6-8761-32ce819c8ffc",
+          "width": 0,
+          "x": 392,
+          "y": 360,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "1f025e4b-d448-459e-80fd-180feb1c83ee",
+          "width": 0,
+          "x": 520,
+          "y": 544,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_coin",
+          "persistentUuid": "7c01db3a-25bb-440e-b0a0-54c42404ee50",
+          "width": 0,
+          "x": 712,
+          "y": 488,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Text",
+          "name": "obj_text",
+          "persistentUuid": "6069b553-e68e-48af-8c79-2a8f4d1e79b4",
+          "width": 0,
+          "x": 32,
+          "y": 32,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "walk",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_walk_right\\walk-9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "jump",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "jump-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_floor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewObject",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_moving",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "obj_platform",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "obj_platform-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_coin",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.03,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-2-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-4-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-5-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-6-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-7-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-8-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-9-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-10-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-11-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-12-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-13-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-14-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-15-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-16-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_coin\\NewObject2-17-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "obj_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Text",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Text",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_wall",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject2-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_up",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject-1-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_down",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject-1-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "obj_player"
+          },
+          {
+            "objectName": "obj_floor"
+          },
+          {
+            "objectName": "obj_moving"
+          },
+          {
+            "objectName": "obj_coin"
+          },
+          {
+            "objectName": "obj_text"
+          },
+          {
+            "objectName": "obj_wall"
+          },
+          {
+            "objectName": "obj_up"
+          },
+          {
+            "objectName": "obj_down"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Right\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "obj_player",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "obj_player",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AnyKeyPressed"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ChangeSprite"
+              },
+              "parameters": [
+                "obj_player",
+                "=",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsJumping"
+              },
+              "parameters": [
+                "obj_player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "obj_player",
+                "Animation",
+                "=",
+                "\"jump\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PlatformBehavior::IsOnFloor"
+              },
+              "parameters": [
+                "obj_player",
+                "PlatformerObject"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "obj_player",
+                "Animation",
+                "=",
+                "\"walk\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ZoomCamera"
+              },
+              "parameters": [
+                "",
+                "1.5",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "obj_player",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "0",
+                "ScreenWidth()",
+                "ScreenHeight()",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "obj_moving",
+                "0",
+                "-100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_up"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_down"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_wall"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_moving",
+                "obj_down",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "obj_moving"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "obj_moving",
+                "0",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_moving",
+                "obj_up",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "obj_moving"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceXY"
+              },
+              "parameters": [
+                "obj_moving",
+                "0",
+                "-100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_coin",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "obj_coin",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "coins_collected",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_text",
+                "Text",
+                "=",
+                "\"Coins: \" + ToString(coins_collected)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_wall",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SeparateFromObjects"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_wall",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Text",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
