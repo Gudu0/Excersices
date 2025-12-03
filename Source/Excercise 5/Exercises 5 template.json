@@ -1,0 +1,2020 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 248,
+    "major": 5,
+    "minor": 5,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "167045a4-28f1-499d-ab1a-0ad925864b13",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useDeprecatedZeroAsDefaultZOrder": true,
+    "version": "1.0.0",
+    "name": "Project",
+    "description": "",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [
+      "mobile"
+    ],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "file": "spr_light/light_on1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_light\\light_on1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_light/light_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_light\\light_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "on-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "on-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "on-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "on-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_right/right1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_right\\right1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_right/right2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_right\\right2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_right/right3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_right\\right3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_player_run_right/right4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_right\\right4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_player_run_right/right5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_right\\right5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_light/light_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_light\\light_on.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_light/off-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_light\\off-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_sign.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_sign.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_smoke_ball.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_smoke_ball.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_left/left1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_left\\left1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_left/left2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_left\\left2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_left/left3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_left\\left3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_player_run_left/left4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_left\\left4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_player_run_left/left5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_left\\left5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_up/up1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_up\\up1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_up/up2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_up\\up2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_up/up3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_up\\up3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_up/up4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_up\\up4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_up/up5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_up\\up5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_down/down1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_down\\down1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_down/down2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_down\\down2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_down/down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_down\\down3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_down/down4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_down\\down4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_player_run_down/down5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_player_run_down\\down5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_switch/spr_switch_off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_switch\\spr_switch_off.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_switch/off-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_switch\\off-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_switch/spr_switch_on.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_switch\\spr_switch_on.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_switch/off.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_switch\\off.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_wall.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_wall.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "spr_soldier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_soldier.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "spr_exit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spr_exit.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ]
+  },
+  "objects": [],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT"
+  },
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "scn_95game",
+      "name": "scn_game",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.6965463539454756,
+        "windowMask": false,
+        "selectedLayer": ""
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_player",
+          "persistentUuid": "4f915dd1-e599-4c7e-b3c7-f455a6badf75",
+          "width": 0,
+          "x": 351,
+          "y": 110,
+          "zOrder": 1000,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_soldier",
+          "persistentUuid": "f27c5acb-4f9b-4605-944f-ad3b0511da01",
+          "width": 0,
+          "x": 395,
+          "y": 981,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_text_stay_away",
+          "persistentUuid": "22a29479-7543-494e-887d-ca80da4e16f7",
+          "width": 0,
+          "x": 183,
+          "y": 622,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_switch",
+          "persistentUuid": "62419cb5-3e4c-4f66-8632-5aa61f718fe6",
+          "width": 0,
+          "x": 358,
+          "y": 258,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1632,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "73e09eaa-ac65-4e93-a36e-bce44e87727f",
+          "width": 32,
+          "x": 800,
+          "y": 0,
+          "zOrder": 1004,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 1600,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "ac934e29-bc0d-4da3-9bdd-0725659abe8b",
+          "width": 32,
+          "x": -32,
+          "y": 0,
+          "zOrder": 1005,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "5ab17f06-3f6c-4a67-87d5-59c558f56fe4",
+          "width": 864,
+          "x": -32,
+          "y": -32,
+          "zOrder": 1006,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_soldier",
+          "persistentUuid": "fd7899c0-940e-4d1f-acf5-1ef027135d99",
+          "width": 0,
+          "x": 195,
+          "y": 820,
+          "zOrder": 1007,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_soldier",
+          "persistentUuid": "5993b390-13f5-44db-a5d2-44850495a222",
+          "width": 0,
+          "x": 599,
+          "y": 786,
+          "zOrder": 1008,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_soldier",
+          "persistentUuid": "082a5d0f-888a-405b-8e7e-550e9e786daf",
+          "width": 0,
+          "x": 188,
+          "y": 1414,
+          "zOrder": 1009,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_soldier",
+          "persistentUuid": "aace3c6e-4a33-4e6a-8241-7d244950d7c9",
+          "width": 0,
+          "x": 551,
+          "y": 1111,
+          "zOrder": 1010,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 32,
+          "layer": "",
+          "name": "obj_wall",
+          "persistentUuid": "d3deb121-fa5e-4eb7-856c-4fbad4e6e5bf",
+          "width": 832,
+          "x": -32,
+          "y": 1600,
+          "zOrder": 1011,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "obj_switch_text",
+          "persistentUuid": "2ffd27e2-1b31-4436-bec1-a8d0871aaf89",
+          "width": 0,
+          "x": 474,
+          "y": 280,
+          "zOrder": 1013,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 99,
+          "keepRatio": true,
+          "layer": "",
+          "name": "obj_arrow",
+          "persistentUuid": "8786d88a-538e-437f-bad1-992e7f46179f",
+          "width": 99,
+          "x": 334,
+          "y": 384,
+          "zOrder": 1014,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_player",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "TopDownMovement",
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+              "acceleration": 400,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "deceleration": 800,
+              "ignoreDefaultControls": false,
+              "maxSpeed": 200,
+              "rotateObject": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "right",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_right\\right1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_right\\right2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_right\\right3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_right\\right4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_right\\right5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "left",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_left\\left1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_left\\left2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_left\\left3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_left\\left4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_left\\left5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "up",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_up\\up1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_up\\up2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_up\\up3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_up\\up4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_up\\up5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "down",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_down\\down1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_down\\down2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_down\\down3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_down\\down4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_player_run_down\\down5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 42,
+                        "y": 41
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_switch",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "off",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_switch\\off.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "on",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_switch\\spr_switch_on.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "obj_switch_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "A collision event can act like switch\nto turn a message on and off",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "A collision event can act like switch\nto turn a message on and off",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "obj_text_stay_away",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Maybe you should stay away from the soldiers...",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 20,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Maybe you should stay away from the soldiers...",
+            "font": "",
+            "textAlignment": "",
+            "verticalTextAlignment": "top",
+            "characterSize": 20,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_soldier",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "spr_soldier",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_soldier.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 15,
+                        "y": 24
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 50,
+                        "y": 27
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "obj_smoke_ball",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "spr_smoke_ball",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "spr_smoke_ball.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 25,
+                        "y": 23
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "height": 32,
+          "name": "obj_wall",
+          "texture": "spr_wall.png",
+          "type": "TiledSpriteObject::TiledSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "obj_arrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 1
+                          },
+                          {
+                            "x": 29,
+                            "y": 30
+                          },
+                          {
+                            "x": 3,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "obj_player"
+          },
+          {
+            "objectName": "obj_switch"
+          },
+          {
+            "objectName": "obj_switch_text"
+          },
+          {
+            "objectName": "obj_text_stay_away"
+          },
+          {
+            "objectName": "obj_soldier"
+          },
+          {
+            "objectName": "obj_smoke_ball"
+          },
+          {
+            "objectName": "obj_wall"
+          },
+          {
+            "objectName": "obj_arrow"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_switch_text"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_arrow"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ext_events_player"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ext_events_switch"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "ext_events_soldier"
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "cameraType": "perspective",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [
+    {
+      "associatedLayout": "scn_game",
+      "name": "ext_events_player",
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement",
+                    "\"Up\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation",
+                    "=",
+                    "\"up\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement",
+                    "\"Left\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation",
+                    "=",
+                    "\"left\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement",
+                    "\"Right\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation",
+                    "=",
+                    "\"right\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsUsingControl"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement",
+                    "\"Down\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation",
+                    "=",
+                    "\"down\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "TopDownMovementBehavior::IsMoving"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "TopDownMovement"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeSprite"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Camera",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "CentreCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "obj_player",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ClampCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0",
+                    "0",
+                    "800",
+                    "1600",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Colission",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "obj_wall",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "obj_player",
+                    "obj_wall",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "scn_game",
+      "name": "ext_events_switch",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_switch",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "obj_switch",
+                "Animation",
+                "=",
+                "\"on\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "obj_switch_text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "obj_arrow",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "obj_player",
+                "obj_switch",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "obj_switch",
+                "Animation",
+                "=",
+                "\"off\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "obj_switch_text"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "scn_game",
+      "name": "ext_events_soldier",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "obj_soldier",
+                "\"shootSmoke\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "obj_soldier",
+                "obj_player",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "obj_soldier",
+                "\"shootSmoke\"",
+                ">",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "obj_soldier",
+                "\"shootSmoke\""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardObject"
+              },
+              "parameters": [
+                "obj_soldier",
+                "obj_player",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "obj_smoke_ball",
+                "obj_soldier.CenterX()",
+                "obj_soldier.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "obj_smoke_ball",
+                "Scale",
+                "=",
+                "0.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceVersPos"
+              },
+              "parameters": [
+                "obj_smoke_ball",
+                "obj_player.CenterX()",
+                "obj_player.CenterY()",
+                "500",
+                "1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": []
+}
